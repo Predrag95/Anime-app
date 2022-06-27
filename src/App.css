@@ -19,6 +19,31 @@
   height: 100px;
 }
 
+.search-name {
+  margin-bottom: 11px;
+  width: 250px;
+  text-align: center;
+}
+
+.search-input {
+  width: 331px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid rgb(34, 145, 219);
+  outline: none;
+}
+
+.search-input:focus {
+  font-size: 16px;
+}
+
+.anime {
+  color: #fff;
+  background-color: rgb(34, 145, 219);
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .content-wrapper {
   display: flex;
 }
@@ -35,6 +60,16 @@
   border-top: 1px solid red;
 }
 
+.sidebar-name {
+  color: rgb(34, 145, 219);
+  font-size: 22px;
+  transition: 300ms;
+}
+
+.sidebar-name:hover {
+  font-size: 25px;
+}
+
 .view-wrapper {
   display: flex;
   flex: 3;
@@ -43,4 +78,34 @@
   align-items: center;
   align-content: center;
   border-top: 1px solid red;
+}
+
+.top-ten-animes {
+  background-color: lightblue;
+  line-height: 30px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.score-year {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-ten-title {
+  text-align: center;
+  font-size: 17px;
+}
+
+.top-ten-form {
+  text-align: center;
+}
+
+.top-ten-score {
+  font-weight: 300;
+}
+
+.top-ten-year {
+  font-weight: 300;
 }

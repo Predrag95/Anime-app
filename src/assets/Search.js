@@ -4,7 +4,7 @@ const Search = () => {
   return (
     <div className='search-wrapper'>
       <div className='search-name'>
-        <h2>Search For Anime</h2>
+        <h2>Search For <span className='anime'>Anime</span></h2>
       </div>
       <form className='form-wrapper'>
         <input 
