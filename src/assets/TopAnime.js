@@ -9,7 +9,11 @@ const TopAnime = ({ title, score, url, year }) => {
       <p className='top-ten-year'>Year: {year}</p>
       </div>
       <form className='top-ten-form' action={url}>
-        <input type="submit" value="Go to Anime" />
+        <input 
+          type="submit" 
+          value="Go to Anime"
+          className='top-submit'
+        />
       </form>
     </div>
   )

@@ -88,7 +88,6 @@
 }
 
 .score-year {
-  background-color: red;
   display: flex;
   justify-content: space-around;
 }
@@ -103,9 +102,24 @@
 }
 
 .top-ten-score {
-  font-weight: 300;
+  font-weight: 600;
+  background-color: rgb(22, 80, 22);
+  color: #fff;
+  padding: 0px 3px 0px 3px;
+  border-radius: 5px;
 }
 
 .top-ten-year {
-  font-weight: 300;
+  font-weight: 600;
+  background-color: rgb(233, 233, 45);
+  /* color: #fff; */
+  padding: 0px 3px 0px 3px;
+  border-radius: 5px;
+}
+
+.top-submit {
+  border: none;
+  padding: 2px 4px 2px 4px;
+  border-radius: 5px;
+  cursor: pointer;
 }
