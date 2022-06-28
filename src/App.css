@@ -81,9 +81,9 @@
 }
 
 .top-ten-animes {
-  background-color: lightblue;
   line-height: 30px;
-  border: 1px solid black;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 5px;
   margin: 20px;
 }
 
@@ -95,6 +95,7 @@
 .top-ten-title {
   text-align: center;
   font-size: 17px;
+  color: rgb(78, 78, 78);
 }
 
 .top-ten-form {
@@ -122,4 +123,6 @@
   padding: 2px 4px 2px 4px;
   border-radius: 5px;
   cursor: pointer;
+  background: rgb(55, 131, 194);
+  color: #fff;
 }
